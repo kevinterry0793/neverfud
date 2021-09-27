@@ -11,6 +11,7 @@ $(function () {
     $(window).on("scroll", function () {
         if ($(this).scrollTop() > 50) {
             $("header, .top-scroll").addClass("fixed");
+            $(".header-top").addClass("fixed");
         } else {
             $("header, .top-scroll").removeClass("fixed");
         }
